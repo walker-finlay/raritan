@@ -1,0 +1,400 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="/index.css" type="text/css">
+    <link rel="stylesheet" href="gallery.css" type="text/css">
+    <link rel="icon" href="../images/Logo-small.jpg">
+    <script type="text/JavaScript" src="gallery.js"></script>
+    <title>Raritan NY | Gallery</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top justify-content-sm-center">
+            <button class="navbar-toggler order-1 position-absolute" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" style="right:10px; top: 10px">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="d-sm-flex flex-sm-column">
+                <a class="navbar-brand mx-auto order-0" style="font-size: x-large;">
+                    <img src="../images/Logo-transparent.png" width="24px" height="24px"> Raritan NY
+                </a>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li id="navHome" class="nav-item">
+                            <a class="nav-link" href="../">Home</a>
+                        </li>
+                        <li id="navSpecs" class="nav-item">
+                            <a class="nav-link" href="/specs/">Specs</a>
+                        </li>
+                        <li id="navGallery" class="nav-item active">
+                            <a class="nav-link" href="#">Gallery</a>
+                        </li>
+                        <li id="navCharter" class="nav-item">
+                            <a class="nav-link" href="/charter/">Charter</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main role="main" data-app="gallery">
+        <section class="jumbotron text-center">
+            <div class="container">
+                <h1>Photos of Raritan</h1>
+                <p class="lead text-muted">
+                    Comprehensive album of Raritan from her first few voyages, cabins and common areas below deck included. Click an image to see it full size.
+                </p>
+                <!-- <p class="lead text-center">
+                    <button class="btn btn-dark btn-lg" role="button" data-toggle="modal" data-target="#galleryModal">Slideshow</button>
+                </p> -->
+            </div>
+
+        </section>
+        <!-- Modal -->
+        <!-- <div id="galleryModal" class="modal fade" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div id="galleryCarousel" class="carousel slide mb-0" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div id="slide-1" class="carousel-item active">
+                                    <img class="d-block w-100 carouselImage" src="../images/bow-city.jpg" alt="Slide-1">
+                                </div>
+                                <div id="slide-2" class="carousel-item">
+                                    <img class="d-block w-100 carouselImage" src="../images/bow-deck.jpg" alt="Slide-2">
+                                </div>
+                                <div id="slide-3" class="carousel-item">
+                                    <img class="d-block w-100 carouselImage" src="../images/bow-with-chairs.jpg" alt="Slide-3">
+                                </div>
+                                <div id="slide-4" class="carousel-item">
+                                    <img class="d-block w-100 carouselImage" src="../images/bunks.jpg" alt="Slide-4">
+                                </div>
+                                <div id="slide-5" class="carousel-item">
+                                    <img class="d-block w-100 carouselImage" src="../images/cloudy-full-boat.jpg" alt="Slide-5">
+                                </div>
+                                <div id="slide-6" class="carousel-item">
+                                    <img class="d-block w-100 carouselImage" src="../images/cockpit-dusk.jpg" alt="Slide-6">
+                                </div>
+                                <div id="slide-7" class="carousel-item">
+                                    <img class="d-block w-100 carouselImage" src="../images/deck-lights.jpg" alt="Slide-7">
+                                </div>
+                                <div id="slide-8" class="carousel-item">
+                                    <img class="d-block w-100 carouselImage" src="../images/dining-kitchen.jpg" alt="Slide-8">
+                                </div>
+                                <div id="slide-9" class="carousel-item">
+                                    <img class="d-block w-100 carouselImage" src="../images/dining-table.jpg" alt="Slide-9">
+                                </div>
+                                <div id="slide-10" class="carousel-item">
+                                    <img class="d-block w-100 carouselImage" src="../images/dinner-setup.jpg" alt="Slide-10">
+                                </div>
+                                <div id="slide-11" class="carousel-item">
+                                    <img class="d-block w-100 carouselImage" src="../images/from-rear-dusk.jpg" alt="Slide-11">
+                                </div>
+                                <div id="slide-12" class="carousel-item">
+                                    <img class="d-block w-100 carouselImage" src="../images/from-stairs.jpg" alt="Slide-12">
+                                </div>
+                                <div id="slide-13" class="carousel-item">
+                                    <img class="d-block w-100 carouselImage" src="../images/from-water.jpg" alt="Slide-13">
+                                </div>
+                                <div id="slide-14" class="carousel-item">
+                                    <img class="d-block w-100 carouselImage" src="../images/galley.jpg" alt="Slide-14">
+                                </div>
+                                <div id="slide-15" class="carousel-item">
+                                    <img class="d-block w-100 carouselImage" src="../images/jib-out.jpg" alt="Slide-15">
+                                </div>
+                                <div id="slide-16" class="carousel-item">
+                                    <img class="d-block w-100 carouselImage" src="../images/living-room-stern.jpg" alt="Slide-16">
+                                </div>
+                                <div id="slide-17" class="carousel-item">
+                                    <img class="d-block w-100 carouselImage" src="../images/mast-lights.jpg" alt="Slide-17">
+                                </div>
+                                <div id="slide-18" class="carousel-item">
+                                    <img class="d-block w-100 carouselImage" src="../images/mast-pic.jpg" alt="Slide-18">
+                                </div>
+                                <div id="slide-19" class="carousel-item">
+                                    <img class="d-block w-100 carouselImage" src="../images/master-bedroom.jpg" alt="Slide-19">
+                                </div>
+                                <div id="slide-20" class="carousel-item">
+                                    <img class="d-block w-100 carouselImage" src="../images/master-stb-bath.jpg" alt="Slide-20">
+                                </div>
+                                <div id="slide-21" class="carousel-item">
+                                    <img class="d-block w-100 carouselImage" src="../images/people-on-bow.jpg" alt="Slide-21">
+                                </div>
+                                <div id="slide-22" class="carousel-item">
+                                    <img class="d-block w-100 carouselImage" src="../images/profile-in-port.jpg" alt="Slide-22">
+                                </div>
+                                <div id="slide-23" class="carousel-item">
+                                    <img class="d-block w-100 carouselImage" src="../images/raritan-from-bow-dusk.jpg" alt="Slide-23">
+                                </div>
+                                <div id="slide-24" class="carousel-item">
+                                    <img class="d-block w-100 carouselImage" src="../images/raritan-from-rear-dusk.jpg" alt="Slide-24">
+                                </div>
+                                <div id="slide-25" class="carousel-item">
+                                    <img class="d-block w-100 carouselImage" src="../images/raritan-from-rear.jpg" alt="Slide-25">
+                                </div>
+                                <div id="slide-26" class="carousel-item">
+                                    <img class="d-block w-100 carouselImage" src="../images/spinnaker-out.jpg" alt="Slide-26">
+                                </div>
+                                <div id="slide-27" class="carousel-item">
+                                    <img class="d-block w-100 carouselImage" src="../images/starboard-queen.jpg" alt="Slide-27">
+                                </div>
+                                <div id="slide-28" class="carousel-item">
+                                    <img class="d-block w-100 carouselImage" src="../images/starboard-settee.jpg" alt="Slide-28">
+                                </div>
+                                <div id="slide-29" class="carousel-item">
+                                    <img class="d-block w-100 carouselImage" src="../images/stern-at-dusk.jpg" alt="Slide-29">
+                                </div>
+                                <div id="slide-30" class="carousel-item">
+                                    <img class="d-block w-100 carouselImage" src="../images/stern-night.jpg" alt="Slide-30">
+                                </div>
+                                <div id="slide-31" class="carousel-item">
+                                    <img class="d-block w-100 carouselImage" src="../images/stern.jpg" alt="Slide-31">
+                                </div>
+                                <div id="slide-32" class="carousel-item">
+                                    <img class="d-block w-100 carouselImage" src="../images/sun-in-jib.jpg" alt="Slide-32">
+                                </div>
+                                <div id="slide-33" class="carousel-item">
+                                    <img class="d-block w-100 carouselImage" src="../images/sun-roof.jpg" alt="Slide-33">
+                                </div>
+                                <div id="slide-34" class="carousel-item">
+                                    <img class="d-block w-100 carouselImage" src="../images/swimming-platform.jpg" alt="Slide-34">
+                                </div>
+                                <div id="slide-35" class="carousel-item">
+                                    <img class="d-block w-100 carouselImage" src="../images/tender-garage.jpg" alt="Slide-35">
+                                </div>
+                                <div id="slide-36" class="carousel-item">
+                                    <img class="d-block w-100 carouselImage" src="../images/under-sail.jpg" alt="Slide-36">
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#galleryCarousel" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#galleryCarousel" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-secondary btn-lg" role="button" data-dismiss="modal">
+                            Close
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <!-- Gallery -->
+        <div class="album pb-5">
+            <div class="container">
+                <div id="gallery-pics" class="row">
+                    <div class="col-md-3 gallery-item">
+                        <a href="../images/bow-city.jpg">
+                            <img class="img-fluid mx-auto img-thumbnail" alt="Thumbnail - 225px" style="width: 225px; height: 225px;" src="../images/thumbnails/bow-city.jpg">
+                        </a>
+                    </div>
+                    <div class="col-md-3 gallery-item">
+                        <a href="../images/bow-deck.jpg">
+                            <img class="img-fluid mx-auto img-thumbnail" alt="Thumbnail - 225px" style="width: 225px; height: 225px;" src="../images/thumbnails/bow-deck.jpg">
+                        </a>
+                    </div>
+                    <div class="col-md-3 gallery-item">
+                        <a href="../images/bow-with-chairs.jpg">
+                            <img class="img-fluid mx-auto img-thumbnail" alt="Thumbnail - 225px" style="width: 225px; height: 225px;" src="../images/thumbnails/bow-with-chairs.jpg">
+                        </a>
+                    </div>
+                    <div class="col-md-3 gallery-item">
+                        <a href="../images/bunks.jpg">
+                            <img class="img-fluid mx-auto img-thumbnail" alt="Thumbnail - 225px" style="width: 225px; height: 225px;" src="../images/thumbnails/bunks.jpg">
+                        </a>
+                    </div>
+                    <div class="col-md-3 gallery-item">
+                        <a href="../images/cloudy-full-boat.jpg">
+                            <img class="img-fluid mx-auto img-thumbnail" alt="Thumbnail - 225px" style="width: 225px; height: 225px;" src="../images/thumbnails/cloudy-full-boat.jpg">
+                        </a>
+                    </div>
+                    <div class="col-md-3 gallery-item">
+                        <a href="../images/cockpit-dusk.jpg">
+                            <img class="img-fluid mx-auto img-thumbnail" alt="Thumbnail - 225px" style="width: 225px; height: 225px;" src="../images/thumbnails/cockpit-dusk.jpg">
+                        </a>
+                    </div>
+                    <div class="col-md-3 gallery-item">
+                        <a href="../images/deck-lights.jpg">
+                            <img class="img-fluid mx-auto img-thumbnail" alt="Thumbnail - 225px" style="width: 225px; height: 225px;" src="../images/thumbnails/deck-lights.jpg">
+                        </a>
+                    </div>
+                    <div class="col-md-3 gallery-item">
+                        <a href="../images/dining-kitchen.jpg">
+                            <img class="img-fluid mx-auto img-thumbnail" alt="Thumbnail - 225px" style="width: 225px; height: 225px;" src="../images/thumbnails/dining-kitchen.jpg">
+                        </a>
+                    </div>
+                    <div class="col-md-3 gallery-item">
+                        <a href="../images/dining-table.jpg">
+                            <img class="img-fluid mx-auto img-thumbnail" alt="Thumbnail - 225px" style="width: 225px; height: 225px;" src="../images/thumbnails/dining-table.jpg">
+                        </a>
+                    </div>
+                    <div class="col-md-3 gallery-item">
+                        <a href="../images/dinner-setup.jpg">
+                            <img class="img-fluid mx-auto img-thumbnail" alt="Thumbnail - 225px" style="width: 225px; height: 225px;" src="../images/thumbnails/dinner-setup.jpg">
+                        </a>
+                    </div>
+                    <div class="col-md-3 gallery-item">
+                        <a href="../images/from-rear-dusk.jpg">
+                            <img class="img-fluid mx-auto img-thumbnail" alt="Thumbnail - 225px" style="width: 225px; height: 225px;" src="../images/thumbnails/from-rear-dusk.jpg">
+                        </a>
+                    </div>
+                    <div class="col-md-3 gallery-item">
+                        <a href="../images/from-stairs.jpg">
+                            <img class="img-fluid mx-auto img-thumbnail" alt="Thumbnail - 225px" style="width: 225px; height: 225px;" src="../images/thumbnails/from-stairs.jpg">
+                        </a>
+                    </div>
+                    <div class="col-md-3 gallery-item">
+                        <a href="../images/from-water.jpg">
+                            <img class="img-fluid mx-auto img-thumbnail" alt="Thumbnail - 225px" style="width: 225px; height: 225px;" src="../images/thumbnails/from-water.jpg">
+                        </a>
+                    </div>
+                    <div class="col-md-3 gallery-item">
+                        <a href="../images/galley.jpg">
+                            <img class="img-fluid mx-auto img-thumbnail" alt="Thumbnail - 225px" style="width: 225px; height: 225px;" src="../images/thumbnails/galley.jpg">
+                        </a>
+                    </div>
+                    <div class="col-md-3 gallery-item">
+                        <a href="../images/jib-out.jpg">
+                            <img class="img-fluid mx-auto img-thumbnail" alt="Thumbnail - 225px" style="width: 225px; height: 225px;" src="../images/thumbnails/jib-out.jpg">
+                        </a>
+                    </div>
+                    <div class="col-md-3 gallery-item">
+                        <a href="../images/living-room-stern.jpg">
+                            <img class="img-fluid mx-auto img-thumbnail" alt="Thumbnail - 225px" style="width: 225px; height: 225px;" src="../images/thumbnails/living-room-stern.jpg">
+                        </a>
+                    </div>
+                    <div class="col-md-3 gallery-item">
+                        <a href="../images/mast-lights.jpg">
+                            <img class="img-fluid mx-auto img-thumbnail" alt="Thumbnail - 225px" style="width: 225px; height: 225px;" src="../images/thumbnails/mast-lights.jpg">
+                        </a>
+                    </div>
+                    <div class="col-md-3 gallery-item">
+                        <a href="../images/mast-pic.jpg">
+                            <img class="img-fluid mx-auto img-thumbnail" alt="Thumbnail - 225px" style="width: 225px; height: 225px;" src="../images/thumbnails/mast-pic.jpg">
+                        </a>
+                    </div>
+                    <div class="col-md-3 gallery-item">
+                        <a href="../images/master-bedroom.jpg">
+                            <img class="img-fluid mx-auto img-thumbnail" alt="Thumbnail - 225px" style="width: 225px; height: 225px;" src="../images/thumbnails/master-bedroom.jpg">
+                        </a>
+                    </div>
+                    <div class="col-md-3 gallery-item">
+                        <a href="../images/master-stb-bath.jpg">
+                            <img class="img-fluid mx-auto img-thumbnail" alt="Thumbnail - 225px" style="width: 225px; height: 225px;" src="../images/thumbnails/master-stb-bath.jpg">
+                        </a>
+                    </div>
+                    <div class="col-md-3 gallery-item">
+                        <a href="../images/people-on-bow.jpg">
+                            <img class="img-fluid mx-auto img-thumbnail" alt="Thumbnail - 225px" style="width: 225px; height: 225px;" src="../images/thumbnails/people-on-bow.jpg">
+                        </a>
+                    </div>
+                    <div class="col-md-3 gallery-item">
+                        <a href="../images/profile-in-port.jpg">
+                            <img class="img-fluid mx-auto img-thumbnail" alt="Thumbnail - 225px" style="width: 225px; height: 225px;" src="../images/thumbnails/profile-in-port.jpg">
+                        </a>
+                    </div>
+                    <div class="col-md-3 gallery-item">
+                        <a href="../images/raritan-from-bow-dusk.jpg">
+                            <img class="img-fluid mx-auto img-thumbnail" alt="Thumbnail - 225px" style="width: 225px; height: 225px;" src="../images/thumbnails/raritan-from-bow-dusk.jpg">
+                        </a>
+                    </div>
+                    <div class="col-md-3 gallery-item">
+                        <a href="../images/raritan-from-rear-dusk.jpg">
+                            <img class="img-fluid mx-auto img-thumbnail" alt="Thumbnail - 225px" style="width: 225px; height: 225px;" src="../images/thumbnails/raritan-from-rear-dusk.jpg">
+                        </a>
+                    </div>
+                    <div class="col-md-3 gallery-item">
+                        <a href="../images/raritan-from-rear.jpg">
+                            <img class="img-fluid mx-auto img-thumbnail" alt="Thumbnail - 225px" style="width: 225px; height: 225px;" src="../images/thumbnails/raritan-from-rear.jpg">
+                        </a>
+                    </div>
+                    <div class="col-md-3 gallery-item">
+                        <a href="../images/spinnaker-out.jpg">
+                            <img class="img-fluid mx-auto img-thumbnail" alt="Thumbnail - 225px" style="width: 225px; height: 225px;" src="../images/thumbnails/spinnaker-out.jpg">
+                        </a>
+                    </div>
+                    <div class="col-md-3 gallery-item">
+                        <a href="../images/starboard-queen.jpg">
+                            <img class="img-fluid mx-auto img-thumbnail" alt="Thumbnail - 225px" style="width: 225px; height: 225px;" src="../images/thumbnails/starboard-queen.jpg">
+                        </a>
+                    </div>
+                    <div class="col-md-3 gallery-item">
+                        <a href="../images/starboard-settee.jpg">
+                            <img class="img-fluid mx-auto img-thumbnail" alt="Thumbnail - 225px" style="width: 225px; height: 225px;" src="../images/thumbnails/starboard-settee.jpg">
+                        </a>
+                    </div>
+                    <div class="col-md-3 gallery-item">
+                        <a href="../images/stern-at-dusk.jpg">
+                            <img class="img-fluid mx-auto img-thumbnail" alt="Thumbnail - 225px" style="width: 225px; height: 225px;" src="../images/thumbnails/stern-at-dusk.jpg">
+                        </a>
+                    </div>
+                    <div class="col-md-3 gallery-item">
+                        <a href="../images/stern-night.jpg">
+                            <img class="img-fluid mx-auto img-thumbnail" alt="Thumbnail - 225px" style="width: 225px; height: 225px;" src="../images/thumbnails/stern-night.jpg">
+                        </a>
+                    </div>
+                    <div class="col-md-3 gallery-item">
+                        <a href="../images/stern.jpg">
+                            <img class="img-fluid mx-auto img-thumbnail" alt="Thumbnail - 225px" style="width: 225px; height: 225px;" src="../images/thumbnails/stern.jpg">
+                        </a>
+                    </div>
+                    <div class="col-md-3 gallery-item">
+                        <a href="../images/sun-in-jib.jpg">
+                            <img class="img-fluid mx-auto img-thumbnail" alt="Thumbnail - 225px" style="width: 225px; height: 225px;" src="../images/thumbnails/sun-in-jib.jpg">
+                        </a>
+                    </div>
+                    <div class="col-md-3 gallery-item">
+                        <a href="../images/sun-roof.jpg">
+                            <img class="img-fluid mx-auto img-thumbnail" alt="Thumbnail - 225px" style="width: 225px; height: 225px;" src="../images/thumbnails/sun-roof.jpg">
+                        </a>
+                    </div>
+                    <div class="col-md-3 gallery-item">
+                        <a href="../images/swimming-platform.jpg">
+                            <img class="img-fluid mx-auto img-thumbnail" alt="Thumbnail - 225px" style="width: 225px; height: 225px;" src="../images/thumbnails/swimming-platform.jpg">
+                        </a>
+                    </div>
+                    <div class="col-md-3 gallery-item">
+                        <a href="../images/tender-garage.jpg">
+                            <img class="img-fluid mx-auto img-thumbnail" alt="Thumbnail - 225px" style="width: 225px; height: 225px;" src="../images/thumbnails/tender-garage.jpg">
+                        </a>
+                    </div>
+                    <div class="col-md-3 gallery-item">
+                        <a href="../images/under-sail.jpg">
+                            <img class="img-fluid mx-auto img-thumbnail" alt="Thumbnail - 225px" style="width: 225px; height: 225px;" src="../images/thumbnails/under-sail.jpg">
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="container">
+        <p class="float-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2020 Walker Finlay</p>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>

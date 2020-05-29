@@ -1,0 +1,13 @@
+img {
+    object-fit: cover;
+}
+
+.gallery-item {
+    /* border: 1px solid red; */
+    margin-top: 2rem;
+}
+
+.carouselImage {
+    object-fit: contain;
+    background-color: black;
+}
