@@ -9,3 +9,4 @@
     - slideshow
         - make smaller versions?
 - admin portal?
+- get it off godaddy
