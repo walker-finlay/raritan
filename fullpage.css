@@ -66,3 +66,7 @@ body {
     height: 0.6rem;
     background-color: #121921;
 }
+
+.carousel-caption {
+    z-index: 5;
+}

@@ -31,3 +31,13 @@
 // }).fail((jqXHR, textStatus) => {
 //     alert(`Error getting gallery item list: ${textStatus}`);
 // });
+
+let gallery_pics = document.getElementById('gallery-pics');
+for (let i = 1; i <= 19; i++) {
+    gallery_pics.innerHTML +=
+        `<div class="col-md-3 gallery-item">
+            <a href="../scaled/${i}.JPG">
+                <img class="img-fluid mx-auto img-thumbnail" alt="Thumbnail${i} - 225px" style="width: 225px; height: 225px;" src="../scaled/${i}.JPG">
+            </a>
+        </div>\n`;
+}

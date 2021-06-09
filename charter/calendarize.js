@@ -152,13 +152,13 @@ function Calendarize() {
                 var todayParsed = Date.parse(today);
 
                 // TODO: generalize this process --------------------
-                var junetwenty = Date.parse(new Date(2020, 5, 20));
-                var julyeleven = Date.parse(new Date(2020, 6, 11));
+                var junetwenty = Date.parse(new Date(2021, 5, 18));
+                var julyeleven = Date.parse(new Date(2021, 6, 11));
                 if ((dateParsed > junetwenty) && (dateParsed < julyeleven)) $dayNode.classList.add('reserved');
 
-                var julytwenty = Date.parse(new Date(2020, 6, 20));
-                var augustnine = Date.parse(new Date(2020, 7, 9));
-                if ((dateParsed > julytwenty) && (dateParsed < augustnine)) $dayNode.classList.add('reserved');
+                var augusttwo = Date.parse(new Date(2021, 7, 1));
+                var augusttwentyone = Date.parse(new Date(2021, 7, 22));
+                if ((dateParsed > augusttwo) && (dateParsed < augusttwentyone)) $dayNode.classList.add('reserved');
                 // --------------------------------------------------
 
                 if (dateParsed === todayParsed) $dayNode.classList.add('today');
