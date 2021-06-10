@@ -2,5 +2,4 @@
 
 ## TODO: 
 - slideshow
-- get it off godaddy
-
+- admin
