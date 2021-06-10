@@ -33,6 +33,7 @@
 // });
 
 let gallery_pics = document.getElementById('gallery-pics');
+let gallery_modal = document.getElementById('carousel-content');
 for (let i = 1; i <= 19; i++) {
     gallery_pics.innerHTML +=
         `<div class="col-md-3 gallery-item">
@@ -40,4 +41,9 @@ for (let i = 1; i <= 19; i++) {
                 <img class="img-fluid mx-auto img-thumbnail" alt="Thumbnail${i} - 225px" style="width: 225px; height: 225px;" src="../scaled/${i}.JPG">
             </a>
         </div>\n`;
+    gallery_modal.innerHTML += 
+        `<div id="slide-${i}" class="carousel-item">
+            <img class="d-block w-100 carouselImage" src="../scaled/${i}.JPG" alt="Slide-${i}">
+        </div>\n`;
 }
+$('#slide-1').addClass('active');
