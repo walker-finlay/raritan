@@ -2,12 +2,13 @@ img {
     object-fit: cover;
 }
 
-.gallery-item {
-    /* border: 1px solid red; */
-    margin-top: 2rem;
+.carouselImage {
+    background-color: black;
 }
 
-.carouselImage {
-    object-fit: contain;
-    background-color: black;
+#ssbtn {
+    width: 150px; 
+    display: block; 
+    margin-top: 80px;
+    margin-bottom: 25px;
 }
